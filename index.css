@@ -1,0 +1,66 @@
+html { overflow-y: scroll; }
+
+body {
+	background: #dddddd;
+	color: #555555;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+h1 {
+  color: #777777;
+  font-weight: normal;
+  margin-bottom: 1.2em;
+}
+
+#container {
+  position: relative;
+  margin: 20px auto;
+  padding: 40px;
+  padding-top: 0;
+  width: 700px;
+  background: #ffffff;
+  border: 1px solid #cccccc;
+}
+
+#nav { height: 80px; }
+
+a {
+  position: relative;
+  padding: 8px;
+  margin: 20px 5px;
+  background: #cccccc;
+  text-decoration: none;
+  color: #333333;
+  cursor: default;
+}
+
+a:active {
+  background: #dddddd;
+}
+
+h1 a {
+  cursor: inherit;
+  text-decoration: underline;
+  background: none;
+}
+
+.test-area {
+  position: relative;
+  width: 701px;
+  height: 301px;
+  background: url(img/grid-100.gif);
+  overflow: hidden;
+}
+
+.test-subject {
+  position: relative;
+  width: 300px;
+  height: 100px;
+  background: #555555;
+  color: #dddddd;
+  font-size: 1.5em;
+  line-height: 100px;
+}
