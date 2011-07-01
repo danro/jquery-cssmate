@@ -4,13 +4,16 @@ jquery.cssmate.js
 A blend of CSS3 transitions, jQuery and a touch of AS3-style tweening.
 
 **Goal**
+
 Provide a standard interface for scripting hardware accelerated transitions (on iOS), while falling back to JavaScript on all other platforms.
 
 **Dependencies**
+
 * [Modernizr](http://modernizr.com/)
 * [jQuery](http://jquery.com/)
 
 **Bundled**
+
 * [jquery.easie.js](https://github.com/jaukia/easie)
 
 **Version History**
@@ -143,7 +146,7 @@ Known Limitations
 TODOs
 -----
 * Add `visible` property that makes use of hide/show.
-* Add utility for getting/setting x & y position.
+* Add utility for getting & setting x/y position.
 * Add support for color properties.
 * Port to Ender.js + morpheus.
 
